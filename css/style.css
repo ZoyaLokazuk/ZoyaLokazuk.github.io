@@ -1,0 +1,254 @@
+.navbar ul li:hover{background-color: #d8ab8b }
+*{ font-family: 'Roboto', sans-serif; }
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  .main-text{
+	position: absolute;
+	top: 120px;
+	width: 96.66666666666%;
+	color: #fff;
+}
+.btn-min-block
+{
+min-width: 170px;
+line-height: 26px;
+}
+.btn-clear
+{
+color: #FFF;
+background-color: transparent;
+border-color: #FFF;
+margin-right: 15px;
+}
+.btn-clear:hover
+{
+color: #000;
+background-color: #FFF;
+}
+
+
+.znachki{
+	background:#f1e3d1;
+	padding: 20px;
+	height:80px;
+	width: 100%;
+	border: solid 1px #f1e3d1;
+}
+.frm {
+	background:#f1e3d1;
+	margin: 10px auto;
+	border-radius: 10px;
+	width: 100%;
+	border: solid 1px #f1e3d1;
+}
+.frm .form_title {
+	color:#333;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 2.75;
+	background-color: #b8b2a7;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+.form_title span{
+	color: #f1e3d1;
+	text-transform: uppercase;
+}
+.frm p {
+	text-align: center;
+	margin: 0;
+}
+.txt {
+	font-size: 14px;
+	font-weight: 500;
+	width: 80%;
+	margin: 20px auto 2px;
+	padding: 4px 3px;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+}
+.txt [placeholder] {
+	color: #bdbdbd;
+}
+.frm .btn_form {
+	width: 100%;
+	height: 40px;
+	background-color: #d8ab8b;
+	border: none;
+	color: #fff;
+	margin-top: 40px;
+
+}
+/*.rishennya{
+	background:#fff;
+	padding: 0px;
+	width: 100%;
+	border: solid 1px #f1e3d1;
+	display: flex;
+	flex-direction: row;
+}*/
+
+.kvadrat1 {
+	background:#f1e3d1;
+	padding:40px 20px;
+	height:100px;
+	width: 100px;
+	font-color: #fff;
+	border: solid 1px #f1e3d1;
+}
+.kvadrat2 {
+	background:#2a3947;
+	padding: 40px 20px;
+	height:100px;
+	width: 100px;
+	font-color: #fff;
+	border: solid 1px #f1e3d1;
+}
+.berezovu {background:#f1e3d1;
+	padding-top: 140px;
+	height:540px;
+	width: 100%;
+	font-color: #fff;
+	border: solid 1px #f1e3d1;
+}
+.ciurpriz {background:#fff;
+	padding: 140px 40px;
+	height:540px;
+	width: 100%;
+	font-color: #fff;
+	border: solid 1px #f1e3d1;
+}
+.tabs{
+  background-color:#f5f5f5;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.tabs .tab-pane{
+  margin-left:20px;
+  padding: 45px 15px;
+  display: flex;
+}
+
+.tabs h3{
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:60px;
+}
+
+.tabs p{
+  font-size:14px;
+}
+.tabs a{
+  font-size:15px;
+  font-family:OpenSans,sans-serif;
+  font-weight:700;
+  color:#fff;
+  padding:30px;
+}
+
+.tabs li{
+  background-color:#333;
+  margin-top:1px;
+  text-align:center;
+  height:110px;
+  width:110px;
+  padding-top:45px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+}
+
+.tabs li.active{
+  background-color:#ff8b38;
+}
+.zamovlen {background:#2a3947;
+	padding: 140px 140px;
+	height:450px;
+	width: 100%;
+		border: solid 1px #f1e3d1;
+}
+.zam{
+    font-color: #f1e3d1;
+    align-items: center; 
+	}
+
+.frm2 {display:flex;}
+
+
+.znachki .soc{}
+
+.znachki .soc ul a{
+text-decoration: none;
+color: white;
+}
+
+.znachki .soc ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+.znachki .soc ul li{
+	width: 40px;
+	height: 40px;
+
+}
+
+.f1{
+	background: url(../11/123/noActive1.png) no-repeat;
+	background-size: contain;
+}
+.f1:hover{
+	background: url(../11/123/Active1.png) no-repeat;
+	background-size: contain;
+}
+.f2{
+	background: url(../11/123/noActive2.png) no-repeat;
+	background-size: contain;
+}
+.f2:hover{
+	background: url(../11/123/Active2.png) no-repeat;
+	background-size: contain;
+}
+.f3{
+	background: url(../11/123/noActive3.png) no-repeat;
+	background-size: contain;
+}
+.f3:hover{
+	background: url(../11/123/Active3.png) no-repeat;
+	background-size: contain;
+}
+.f4{
+	background: url(../11/123/noActive4.png) no-repeat;
+	background-size: contain;
+}
+.f4:hover{
+	background: url(../11/123/Active4.png) no-repeat;
+	background-size: contain;
+}
+.f5{
+	background: url(../11/123/noActive5.png) no-repeat;
+	background-size: contain;
+}
+.f5:hover{
+	background: url(../11/123/Active5.png) no-repeat;
+	background-size: contain;
+}
+.f6{
+	background: url(../11/123/noActive6.png) no-repeat;
+	background-size: contain;
+}
+.f6:hover{
+	background: url(../11/123/Active6.png) no-repeat;
+	background-size: contain;
+}
+.f7{
+	background: url(../11/123/noActive7.png) no-repeat;
+	background-size: contain;
+}
+.f7:hover{
+	background: url(../11/123/Active7.png) no-repeat;
+	background-size: contain;
+}
+
